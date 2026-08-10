@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "tsx",
+        "test": "node --test",
         "test:two-sum": "node --test ./test/two-sum.test.ts"
     },
     "keywords": [],
