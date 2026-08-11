@@ -7,7 +7,8 @@
         "dev": "tsx",
         "test": "node --test",
         "test:two-sum": "node --test ./test/two-sum.test.ts",
-        "test:palindrome-number": "node --test ./test/palindrome-number.test.ts"
+        "test:palindrome-number": "node --test ./test/palindrome-number.test.ts",
+        "test:roman-integer": "node --test ./test/roman-to-integer.test.ts"
     },
     "keywords": [],
     "author": "",
