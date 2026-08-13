@@ -9,7 +9,8 @@
         "test:two-sum": "node --test ./test/two-sum.test.ts",
         "test:palindrome-number": "node --test ./test/palindrome-number.test.ts",
         "test:roman-integer": "node --test ./test/roman-to-integer.test.ts",
-        "test:longest-common-prefix": "node --test ./test/longest-common-prefix.test.ts"
+        "test:longest-common-prefix": "node --test ./test/longest-common-prefix.test.ts",
+        "test:valid-parentheses": "node --test ./test/valid-parentheses.test.ts"
     },
     "keywords": [],
     "author": "",
