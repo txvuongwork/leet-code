@@ -11,7 +11,8 @@
         "test:roman-integer": "node --test ./test/roman-to-integer.test.ts",
         "test:longest-common-prefix": "node --test ./test/longest-common-prefix.test.ts",
         "test:valid-parentheses": "node --test ./test/valid-parentheses.test.ts",
-        "test:merge-two-sorted-lists": "node --test ./test/merge-two-sorted-lists.test.ts"
+        "test:merge-two-sorted-lists": "node --test ./test/merge-two-sorted-lists.test.ts",
+        "test:remove-duplicates-from-sorted-array": "node --test ./test/remove-duplicates-from-sorted-array.test.ts"
     },
     "keywords": [],
     "author": "",
