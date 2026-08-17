@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { ListNode, mergeTwoLists } from '../merge-two-sorted-lists.ts';
+import { ListNode, mergeTwoLists } from '../script/merge-two-sorted-lists.ts';
 
 function arrayToList(arr: number[]): ListNode | null {
     let dummy = new ListNode();

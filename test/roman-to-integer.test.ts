@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { romanToInt } from '../roman-to-integer.ts';
+import { romanToInt } from '../script/roman-to-integer.ts';
 
 const testCases: { name: string; s: string; expected: number }[] = [
     { name: 'Case 1', s: 'III', expected: 3 },

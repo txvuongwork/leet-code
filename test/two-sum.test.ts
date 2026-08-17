@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { twoSum } from '../two-sum.ts';
+import { twoSum } from '../script/two-sum.ts';
 
 const testCases: { name: string; nums: number[]; target: number; expected: number[] }[] = [
     { name: 'Case 1', nums: [2, 7, 11, 15], target: 9, expected: [0, 1] },

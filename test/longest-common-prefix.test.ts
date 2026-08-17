@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { longestCommonPrefix } from '../longest-common-prefix.ts';
+import { longestCommonPrefix } from '../script/longest-common-prefix.ts';
 
 const testCases: { name: string; strs: string[]; expected: string }[] = [
     { name: 'Case 1', strs: ['flower', 'flow', 'flight'], expected: 'fl' },

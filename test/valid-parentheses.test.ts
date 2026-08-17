@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { isValid } from '../valid-parentheses.ts';
+import { isValid } from '../script/valid-parentheses.ts';
 
 const testCases: { name: string; s: string; expected: boolean }[] = [
     { name: 'Case 1', s: '()', expected: true },

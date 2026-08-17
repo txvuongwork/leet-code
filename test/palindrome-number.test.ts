@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { isPalindrome } from '../palindrome-number.ts';
+import { isPalindrome } from '../script/palindrome-number.ts';
 
 const testCases: { name: string; x: number; expected: boolean }[] = [
     { name: 'Case 1', x: 121, expected: true },

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { removeDuplicates } from '../remove-duplicates-from-sorted-array.ts';
+import { removeDuplicates } from '../script/remove-duplicates-from-sorted-array.ts';
 
 const testCases: { name: string; nums: number[]; expectedLength: number; expectedNums: number[] }[] = [
     { name: 'Case 1', nums: [1, 1, 2], expectedLength: 2, expectedNums: [1, 2] },
