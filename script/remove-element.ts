@@ -8,5 +8,5 @@ export function removeElement(nums: number[], val: number): number {
         }
     }
 
-    return nums.length ? k : 0;
+    return k;
 }
